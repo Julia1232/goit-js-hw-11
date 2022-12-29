@@ -9,6 +9,7 @@ const refs = {
     containerEl: document.querySelector('.gallery'),
     loadMoreEl: document.querySelector('.load-more')
 }
+
 let searchQuery = '';
 let page = 1;
 const limit = 40;

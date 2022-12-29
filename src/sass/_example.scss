@@ -12,7 +12,7 @@
   font-family: monospace;
   font-size: 16px;
   font-weight: 700;
-  background-color: #ff6b0a;
+  background-color: #6085b1;
   color: #fff;
   padding: 2px 6px;
   border-radius: 2px;
@@ -20,9 +20,78 @@
 
 .example .background {
   height: 240px;
-  // ❗️❗️❗️ The path to images from a SASS file
-  // is always the same as from the css folder.
+  // ❗️❗️❗️ The path to images from a SASS file 
+  // is always the same as from the css folder. 
   background-image: url('../images/logo.png');
   background-size: cover;
   background-position: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(49, 241, 209);
+  height: 70px;
+
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid rgb(11, 5, 97);
+  border-radius: 5px;
+}
+
+input:active {
+  border: 1px solid rgb(11, 5, 97);
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid rgb(11, 5, 97);
+  padding: 10px;
+  background-color: rgb(49, 241, 209);
+}
+
+.gallery {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 250px;
+  height: 180px;
+}
+
+.photo-card {
+  border: 1px solid rgb(177, 116, 161);
+}
+
+.info {
+  margin-left: 10px;
+}
+
+.info-item {
+  color: rgb(50, 43, 51);
+}
+
+.load-container {
+  display: flex;
+  justify-content: center;
+}
+
+.load-more {
+  width: 250px;
+  margin: 20px 0;
 }
